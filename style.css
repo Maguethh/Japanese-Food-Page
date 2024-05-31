@@ -1,0 +1,378 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+@font-face {
+  font-family: "Hiro Misake";
+  src: url("/fonts/HIROMISAKE.ttf") format("truetype");
+}
+
+body {
+  background-color: #f3ede1;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #e9dac6;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.logo-container {
+  width: 10%;
+}
+
+.user-informations {
+  width: 10%;
+}
+
+.header-navbar {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+.uic {
+  width: 50%;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-item {
+  font-family: "Satoshi";
+  color: #333f72;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.navbar-item:hover {
+  color: #e56e0c;
+  scale: 1.05;
+}
+
+.user-informations {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.user-info-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  font-family: "Hiro Misake";
+  font-size: 70px;
+  color: #333f72;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-family: "Satoshi";
+  font-size: 20px;
+  color: #333f72;
+  font-weight: 00;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.home-button-container {
+  width: 12%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.order-button {
+  font-family: "Hiro Misake";
+  color: white;
+  background-color: #e56e0c;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px 0px 30px 0px;
+  margin: auto;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.order-button:hover {
+  scale: 1.05;
+  border: solid 1px #e56e0c;
+  background-color: rgba(255, 255, 255, 0);
+  color: orange;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-container {
+  width: 40%;
+  margin: auto;
+  padding-right: 75px;
+  margin-top: 40px;
+}
+
+.home-page-l-pattern {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  z-index: -1;
+  top: 200px;
+  left: -500px;
+}
+
+.home-page-r-pattern {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  z-index: -1;
+  top: 200px;
+  right: -500px;
+}
+
+.l-pattern,
+.r-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.mid-pattern {
+  width: 100%;
+  z-index: -2;
+  margin-top: 100px;
+}
+
+.mid-pattern-img {
+  width: 100%;
+}
+
+.shop-title {
+  font-family: "Hiro Misake";
+  font-size: 50px;
+  color: #333f72;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.food-cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.food-card {
+  height: 300px;
+  border: solid 1px #333f72;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 35px 0px 35px 0px;
+  transition: 0.3s ease;
+}
+
+.food-card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.food-card-img {
+  width: 100%;
+}
+
+.food-card-informations {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.food-name {
+  font-family: "Hiro Misake";
+  font-size: 35px;
+  color: #333f72;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.food-varieties {
+  font-family: "Satoshi";
+  font-size: 18px;
+  color: #333f72;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.food-button {
+  border: solid 1px #e56e0c;
+  background: rgba(255, 255, 255, 0);
+  transition: 0.3s ease;
+  font-size: 18px;
+  font-family: "Hiro Misake";
+  color: #e56e0c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 35px 0px 35px 0px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin: auto;
+  cursor: pointer;
+}
+
+.food-button:hover {
+  background: #e56e0c;
+  color: white;
+}
+
+.testimonials-title {
+  font-family: "Hiro Misake";
+  font-size: 50px;
+  color: #333f72;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.testimonial-card {
+  width: 33%;
+  position: relative;
+  height: 300px;
+}
+
+.testimonial-text {
+  font-family: "Satoshi";
+  font-size: 16px;
+  color: #333f72;
+  font-weight: 500;
+  top: 15px;
+  right: 90px;
+  width: 45%;
+  position: absolute;
+}
+
+.testimonial-cards-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.tcif1 {
+  position: absolute;
+  top: 180px;
+  height: 250px;
+  left: 90px;
+}
+
+.tcic1 {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  height: 200px;
+  z-index: -1;
+}
+
+.testimonial-br {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.tc2 {
+  top: 200px;
+  left: -60px;
+}
+
+.tcif3 {
+  left: 350px;
+}
+
+.tcic3 {
+  left: -100px;
+}
+
+.footer {
+  background-color: #1d2544;
+  height: 300px;
+  margin-top: 300px;
+}
+
+.navbar-item::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: #e56e0c;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.navbar-item:hover {
+  color: #e56e0c;
+  scale: 1.05;
+}
+
+.navbar-item:hover::after {
+  width: 5px;
+  height: 5px;
+}
